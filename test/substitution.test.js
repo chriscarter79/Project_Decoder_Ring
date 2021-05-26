@@ -30,9 +30,9 @@ describe('substitution()', () =>{
 
     describe('encoding a message', () => {
         it('should encode a message by using the given substitution alphabet', () => {
-            const input = 'happy';
+            const input = 'message';
             const alphabet = 'plmoknijbuhvygctfxrdzeswaq';
-            const expected = 'jptta';
+            const expected = 'ykrrpik';
             const actual = substitution(input, alphabet);
             expect(actual).to.equal(expected);
         })
@@ -54,10 +54,10 @@ describe('substitution()', () =>{
 
     describe('decoding a message', () => {
         it('should decode a message by using the given substitution alphabet', () => {
-            const input = 'jptta';
+            const input = 'ykrrpik';
             const alphabet = 'plmoknijbuhvygctfxrdzeswaq';
             const encode = false;
-            const expected = 'happy';
+            const expected = 'message';
             const actual = substitution(input, alphabet, encode);
             expect(actual).to.equal(expected);
         })
