@@ -5,8 +5,7 @@
 
 const substitutionModule = (function () {
   // you can add any code you want within this function scope
-  let args = process.argv.slice(2);
-
+  
   function substitution(input, alphabet, encode = true) {
     // your solution code here
     //returns false if there is no substitution alphabet, the alphabet length is not exactly 26 
