@@ -13,10 +13,10 @@ OR enter an already encoded message and recieve a decoded message.
 
 ## Project Preview
 Main application view.
-![Decoder Ring Main](preview-images/decoder-ring-main.png)
+![Decoder Ring Main](src/img/Project_Decoder_Ring_Main_Screen.png)
 Example of an encoded message using the Caesar Shift.
-![Caesar Shift](preview-images/caesar-shift.png)
+![Caesar Shift](src/img/Project_Decoder_Ring_Caesar_Screen.png)
 A decoded message using the Polybius Cipher.
-![Polybius Square](preview-images/polybius.png)
+![Polybius Square](src/img/Project_Decoder_Ring_Polybius_Screen.png)
 An encoded message after providing a substitution alphabet in the Substitution Cipher.
-![Substitution Cipher](preview-images/substitution-cipher.png)
+![Substitution Cipher](src/img/Project_Decoder_Ring_Substitution_Screen.png)
